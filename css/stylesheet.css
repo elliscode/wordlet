@@ -1,0 +1,61 @@
+.word > div {
+    width:45px;
+    height:45px;
+    display:block;
+    border-style:solid;
+    border-color:black;
+    border-width:1px;
+    border-radius:5px;
+    display:inline-block;
+}
+#words {
+    width:100%;
+    height:calc(100% - 300px);
+    position:fixed;
+    top:45px;
+    left:0px;
+    text-align:center;
+}
+.word {
+    position:relative;
+}
+#keyboard {
+    width:100%;
+    height:300px;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    background-color:#bbb;
+}
+#keyboard > .keyrow {
+    display:block;
+    text-align:center;
+    margin-top:5px;
+
+}
+#keyboard > .keyrow > .key {
+    display:inline-block;
+    width:calc(100vw / 12);
+    height:90px;
+    text-align:center;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    border-radius:5px;
+    background-color:#ddd;
+}
+#keyboard > .keyrow > .key > p {
+    display:block;
+    margin-top:35px;
+    font-weight:bold;
+}
+h1 {
+    margin:0px;
+    padding:0px;
+    text-align:center;
+    width:100%;
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:37px;
+}
